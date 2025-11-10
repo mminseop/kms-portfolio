@@ -1,0 +1,142 @@
+[
+  {
+    "category": "Frontend",
+    "items": [
+      {
+        "name": "React 19+",
+        "logo": "https://skillicons.dev/icons?i=react",
+        "description": "함수형 컴포넌트, 공통 컴포넌트 및 성능 최적화 RESTful API 연동 및 인증 시스템 구현, 사용자 인증 시스템 등 3개 이상의 실전 프로젝트 경험"
+      },
+      {
+        "name": "Next.js 15+",
+        "logo": "https://skillicons.dev/icons?i=nextjs",
+        "description": "App Router (15.4), SSR 개념 이해 및 학습 중"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://skillicons.dev/icons?i=typescript",
+        "description": "인터페이스와 제네릭을 활용한 타입 안정성 확보, React 프로젝트에 TypeScript 적용 경험"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://skillicons.dev/icons?i=javascript",
+        "description": "ES6+ 문법 활용 (async/await, 구조분해, 고차함수), 모듈화 설계 및 비동기 처리 구현"
+      },
+      {
+        "name": "SCSS",
+        "logo": "https://skillicons.dev/icons?i=sass",
+        "description": "중첩, 변수, 믹스인을 활용한 효율적인 스타일 관리"
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "https://skillicons.dev/icons?i=tailwind",
+        "description": "유틸리티 클래스 기반 반응형 디자인 구현"
+      }
+    ]
+  },
+  {
+    "category": "State & Data",
+    "items": [
+      {
+        "name": "TanStack Query",
+        "logo": "/images/icons/tantack-query.svg",
+        "description": "서버 상태 관리, 캐싱 및 낙관적 업데이트를 통한 UX 개선"
+      },
+      {
+        "name": "Zustand",
+        "logo": "/images/icons/zustand-icon.svg",
+        "description": "장바구니, 인증 등 클라이언트 전역 상태 관리"
+      },
+      {
+        "name": "Axios",
+        "logo": "/images/icons/axios-icon.svg",
+        "description": "인터셉터를 활용한 토큰 자동 갱신 및 중앙화된 에러 핸들링"
+      }
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      {
+        "name": "Node.js",
+        "logo": "https://skillicons.dev/icons?i=nodejs",
+        "description": "JavaScript 런타임 환경"
+      },
+      {
+        "name": "Express",
+        "logo": "https://skillicons.dev/icons?i=express",
+        "description": "REST API 설계 및 구현, 미들웨어와 라우팅 활용, JWT 인증 시스템 및 OAuth 2.0 소셜 로그인 (Google, Naver, Kakao), 복잡하지 않은 서버 구현 경험"
+      },
+      {
+        "name": "PHP",
+        "logo": "https://skillicons.dev/icons?i=php",
+        "description": "CRUD 기능 구현 경험"
+      },
+      {
+        "name": "MariaDB",
+        "logo": "/images/icons/mariadb-icon.svg",
+        "description": "SQL 쿼리 작성 (JOIN, GROUP BY) 및 데이터베이스 설계"
+      }
+    ]
+  },
+  {
+    "category": "DevOps & Tools",
+    "items": [
+      {
+        "name": "Vite",
+        "logo": "https://skillicons.dev/icons?i=vite",
+        "description": "빠른 개발 환경 구성 및 최적화된 프로덕션 빌드"
+      },
+      {
+        "name": "AWS EC2",
+        "logo": "https://skillicons.dev/icons?i=aws",
+        "description": "Ubuntu 환경 백엔드 서버 배포 및 관리"
+      },
+      {
+        "name": "Nginx",
+        "logo": "https://skillicons.dev/icons?i=nginx",
+        "description": "리버스 프록시 설정, Certbot을 통한 Let's Encrypt SSL/TLS 인증서 적용 및 HTTPS 배포"
+      },
+      {
+        "name": "Vercel",
+        "logo": "https://skillicons.dev/icons?i=vercel",
+        "description": "프론트엔드 자동 배포 및 CI/CD 구성"
+      },
+      {
+        "name": "Git Actions",
+        "logo": "https://skillicons.dev/icons?i=githubactions",
+        "description": "AWS S3 자동 배포 CI/CD 파이프라인 구축 경험"
+      },
+      {
+        "name": "ESLint",
+        "logo": "/images/icons/eslint-icon.svg",
+        "description": "코드 품질 관리 및 일관된 코딩 스타일 유지"
+      }
+    ]
+  },
+  {
+    "category": "Collaboration",
+    "items": [
+      {
+        "name": "Git & GitHub",
+        "logo": "https://skillicons.dev/icons?i=github",
+        "description": "feature/develop/main 브랜치 전략, PR 리뷰 및 Conflict 해결, rebase 활용"
+      },
+      {
+        "name": "Notion",
+        "logo": "https://skillicons.dev/icons?i=notion",
+        "description": "일정 관리, 데일리 스크럼, 트러블슈팅 문서화, Task 관리"
+      },
+      {
+        "name": "Figma",
+        "logo": "https://skillicons.dev/icons?i=figma",
+        "description": "UI/UX 디자인 협업 경험"
+      },
+      {
+        "name": "Discord",
+        "logo": "https://skillicons.dev/icons?i=discord",
+        "description": "팀 커뮤니케이션 및 Webhook 연동"
+      }
+    ]
+  }
+]

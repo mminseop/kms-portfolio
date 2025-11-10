@@ -1,0 +1,71 @@
+{
+  "sectionTitle": "PROJECTS",
+  "projects": [
+    {
+      "id": 0,
+      "images": [
+        "/images/projects/ozMovie/1-main.png",
+        "/images/projects/ozMovie/2-login.png",
+        "/images/projects/ozMovie/3-detail.png",
+        "/images/projects/ozMovie/4-favorite.png",
+        "/images/projects/ozMovie/5-search.png",
+        "/images/projects/ozMovie/6-mobile.png"
+      ],
+      "projectInfo": {
+        "projectType": "개인 프로젝트",
+        "projectName": "OZ MOVIE",
+        "projectDate": "2025.07.24 ~ 2025.07.30",
+        "projectSite": "https://react-movie-mini.vercel.app/",
+        "projectGithub": "https://github.com/mminseop/react-movie-mini"
+      },
+      "projectDetail": {
+        "projectExplain": "React 영화 검색 및 추천 웹 애플리케이션으로, TMDB API를 활용해 실시간 영화 데이터를 제공하고 Supabase 기반 소셜 로그인을 통한 사용자 인증 시스템을 구현한 프로젝트입니다. 무한 스크롤 기능을 통해 끊김 없는 영화 탐색 경험을 제공하며, 사용자가 다양한 영화 정보를 직관적으로 검색하고 열람할 수 있도록 설계되었습니다.",
+        "projectStacks": [
+          "https://skillicons.dev/icons?i=react",
+          "https://skillicons.dev/icons?i=vite",
+          "https://skillicons.dev/icons?i=css",
+          "https://skillicons.dev/icons?i=javascript",
+          "https://skillicons.dev/icons?i=supabase",
+          "/images/icons/axios-icon.svg",
+          "https://skillicons.dev/icons?i=vercel"
+        ],
+        "projectReview": "외부 API 통합과 인증 시스템 구현에 대한 실전 경험을 쌓을 수 있었습니다. 특히 Supabase의 OAuth 설정 과정에서 리다이렉트 URL 구성과 프로바이더별 설정 차이를 학습하며 BaaS(Backend as a Service)의 효율성을 체감했습니다. 무한 스크롤 구현 시 react-infinite-scroll-component 라이브러리를 사용하였고 프로젝트 요구사항에 맞는 최적의 솔루션을 선택하는 의사결정 능력을 키웠습니다. 이 프로젝트는 React 생태계의 핵심 개념들을 종합적으로 활용한 실전 경험이었으며 프론트엔드 개발자로서의 기술 역량을 한 단계 성장시킨 의미 있는 프로젝트였습니다."
+      }
+    },
+    {
+      "id": 1,
+      "images": [
+        "/images/projects/tasteMap/1-login.png",
+        "/images/projects/tasteMap/2-main.png",
+        "/images/projects/tasteMap/3-add1.png",
+        "/images/projects/tasteMap/4-add2.png",
+        "/images/projects/tasteMap/5-mainmarker.png",
+        "/images/projects/tasteMap/6-favorite.png"
+      ],
+      "projectInfo": {
+        "projectType": "개인 프로젝트",
+        "projectName": "Taste Map",
+        "projectDate": "2025.08 ~ 2025.08",
+        "projectSite": "https://tastemap-lovat.vercel.app/",
+        "projectGithub": "https://github.com/mminseop/places-marker-client"
+      },
+      "projectDetail": {
+        "projectExplain": "TasteMap은 사용자가 원하는 장소를 검색하고 개인 위시리스트로 저장하여 지도에 시각화하는 장소 저장 및 관리 웹 애플리케이션입니다. Google Places API를 통해 실시간 장소 데이터를 검색하고 네이버 Map API로 한국 사용자에게 친숙한 지도 인터페이스를 제공하며 JWT 기반 인증 시스템으로 사용자별 맞춤형 장소 관리 기능을 구현했습니다.",
+        "projectStacks": [
+          "https://skillicons.dev/icons?i=react",
+          "https://skillicons.dev/icons?i=vite",
+          "https://skillicons.dev/icons?i=scss",
+          "https://skillicons.dev/icons?i=javascript",
+          "/images/icons/axios-icon.svg",
+          "https://skillicons.dev/icons?i=aws",
+          "https://skillicons.dev/icons?i=express",
+          "https://skillicons.dev/icons?i=nginx",
+          "/images/icons/mariadb-icon.svg",
+          "https://skillicons.dev/icons?i=nodejs",
+          "https://skillicons.dev/icons?i=vercel"
+        ],
+        "projectReview": "프론트엔드와 백엔드를 모두 직접 구축하는 풀스택 개발 경험을 쌓을 수 있었습니다. 특히 AWS EC2에 Express 서버를 배포하고 관리하는 과정에서 클라우드 인프라와 서버 운영에 대한 이해도를 높였습니다. 또, 리버스 프록시 설정, Certbot을 통한 SSL/TLS 인증서 적용 및 HTTPS 배포 경험도 하였습니다. Google Places API와 네이버 Map API라는 서로 다른 제공업체의 API를 통합하면서 API 문서를 읽고 데이터 구조를 분석하는 능력이 향상되었습니다<br/><br/>JWT 기반 인증 시스템을 직접 구현하며 토큰 발급, 검증, 갱신 프로세스를 이해하고, 프론트엔드에서 인증 상태를 관리하는 패턴을 학습했습니다. 지도 위의 마커 클릭 시 사이드 패널과 연동되는 인터랙티브한 UI를 구현하면서 사용자 경험을 고려한 인터페이스 설계의 중요성을 체감했습니다<br><br>향후 개선 방향으로는 TypeScript 도입을 통한 타입 안정성 확보, 장소 카테고리별 필터링 및 정렬 기능 추가, 그리고 사용자 간 위시리스트 공유 기능 구현을 고려하고 있습니다. 이 프로젝트는 단순한 프론트엔드 개발을 넘어 백엔드 구축, API 통합, 인증 시스템 구현까지 아우르는 종합적인 웹 개발 역량을 키운 의미 있는 경험이었습니다"
+      }
+    }
+  ]
+}

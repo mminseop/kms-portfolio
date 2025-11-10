@@ -1,0 +1,18 @@
+{
+  "name": "김민섭",
+  "title": "FRONTEND DEVELOPER",
+  "greeting": "안녕하세요",
+  "message": "본질에 집중하는 프론트엔드 개발자 김민섭입니다",
+  "moreButton": {
+    "text": "더 알아보기 ↓",
+    "targetSection": "about"
+  },
+  "backgroundImage": {
+    "url": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=1920&h=1080&fit=crop&q=80",
+    "gradient": "linear-gradient(135deg, rgba(10, 10, 10, 0.8) 0%, rgba(40, 40, 40, 0.8) 100%)"
+  },
+  "animation": {
+    "typingSpeed": 100,
+    "typingDelay": 500
+  }
+}
