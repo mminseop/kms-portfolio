@@ -66,6 +66,66 @@
         ],
         "projectReview": "프론트엔드와 백엔드를 모두 직접 구축하는 풀스택 개발 경험을 쌓을 수 있었습니다. 특히 AWS EC2에 Express 서버를 배포하고 관리하는 과정에서 클라우드 인프라와 서버 운영에 대한 이해도를 높였습니다. 또, 리버스 프록시 설정, Certbot을 통한 SSL/TLS 인증서 적용 및 HTTPS 배포 경험도 하였습니다. Google Places API와 네이버 Map API라는 서로 다른 제공업체의 API를 통합하면서 API 문서를 읽고 데이터 구조를 분석하는 능력이 향상되었습니다<br/><br/>JWT 기반 인증 시스템을 직접 구현하며 토큰 발급, 검증, 갱신 프로세스를 이해하고, 프론트엔드에서 인증 상태를 관리하는 패턴을 학습했습니다. 지도 위의 마커 클릭 시 사이드 패널과 연동되는 인터랙티브한 UI를 구현하면서 사용자 경험을 고려한 인터페이스 설계의 중요성을 체감했습니다<br><br>향후 개선 방향으로는 TypeScript 도입을 통한 타입 안정성 확보, 장소 카테고리별 필터링 및 정렬 기능 추가, 그리고 사용자 간 위시리스트 공유 기능 구현을 고려하고 있습니다. 이 프로젝트는 단순한 프론트엔드 개발을 넘어 백엔드 구축, API 통합, 인증 시스템 구현까지 아우르는 종합적인 웹 개발 역량을 키운 의미 있는 경험이었습니다"
       }
+    },
+    {
+      "id": 2,
+      "images": [
+        "/images/projects/studyHub/1-main.png",
+        "/images/projects/studyHub/2-login.png",
+        "/images/projects/studyHub/3-signup.png",
+        "/images/projects/studyHub/4-signup.png",
+        "/images/projects/studyHub/5-emailFind.png",
+        "/images/projects/studyHub/6-emailFind.png",
+        "/images/projects/studyHub/7-emailFind.png",
+        "/images/projects/studyHub/8-pwdFind.png",
+        "/images/projects/studyHub/10-pwdFind.png",
+        "/images/projects/studyHub/11-userLeave.png",
+        "/images/projects/studyHub/12-userLeave.png",
+        "/images/projects/studyHub/13-userLeave.png",
+        "/images/projects/studyHub/14-mypage.png",
+        "/images/projects/studyHub/15-mypage.png",
+        "/images/projects/studyHub/16-mypage.png",
+        "/images/projects/studyHub/17-mypage.png",
+        "/images/projects/studyHub/19-mypage.png",
+        "/images/projects/studyHub/20-mypage.png",
+        "/images/projects/studyHub/21-mypage.png",
+        "/images/projects/studyHub/22-mypage.png",
+        "/images/projects/studyHub/23-mypage.png",
+        "/images/projects/studyHub/24-mypage.png",
+        "/images/projects/studyHub/25-mypage.png", 
+        "/images/projects/studyHub/26-responsive.png",
+        "/images/projects/studyHub/27-responsive.png",
+        "/images/projects/studyHub/28-responsive.png",
+        "/images/projects/studyHub/29-responsive.png",
+        "/images/projects/studyHub/30-responsive.png",
+        "/images/projects/studyHub/31-chat.png",
+        "/images/projects/studyHub/32-chat.png",
+        "/images/projects/studyHub/33-chat.png",
+        "/images/projects/studyHub/34-notifications.png",
+        "/images/projects/studyHub/35-notifications.png",
+        "/images/projects/studyHub/36-notifications.png"
+      ],
+      "projectInfo": {
+        "projectType": "팀 프로젝트 (리드, 4인)",
+        "projectName": "StudyHub",
+        "projectDate": "2025.10.14 ~ 2025.11.16",
+        "projectSite": "https://account.ozcoding.site/",
+        "projectGithub": "https://github.com/OZ-Coding-School/oz_externship_fe_03_team2"
+      },
+      "projectDetail": {
+        "projectExplain": "StudyHub는 온라인 강의를 끝까지 완주하지 못하는 학습자들에게 동기부여와 명확한 목표를 제공하기 위한 IT 학습 플랫폼입니다. Udemy와 Inflearn 등 주요 플랫폼의 강의 정보를 스크래핑하여 제공하고, 같은 강의를 듣는 학습자들끼리 스터디를 생성하고 참여하며 함께 성장할 수 있도록 지원합니다. 저는 프론트엔드 2팀의 리드로서 프로젝트 전체를 총괄하며 초기 환경 세팅부터 주요 라이브러리 설정, 마이페이지 개발, 반응형 디자인, Error Boundary 도입, 그리고 팀원들의 PR 리뷰까지 담당했습니다.",
+        "projectStacks": [
+          "https://skillicons.dev/icons?i=react",
+          "https://skillicons.dev/icons?i=typescript",
+          "https://skillicons.dev/icons?i=vite",
+          "https://skillicons.dev/icons?i=tailwind",
+          "/images/icons/tantack-query.svg",
+          "/images/icons/zustand-icon.svg",
+          "/images/icons/axios-icon.svg",
+          "https://skillicons.dev/icons?i=vercel"
+        ],
+        "projectReview": "프로젝트를 처음부터 끝까지 주도하며 기술적 의사결정과 팀 관리 역량을 모두 성장시킬 수 있었습니다. 특히 Vite, Axios, TanStack Query, Zustand 등 초기 환경 세팅을 직접 구축하며 프로젝트 아키텍처 설계 경험을 쌓았고, MSW를 활용한 테스트 환경 구축으로 팀 전체의 개발 속도를 높였습니다.<br/><br/>마이페이지 개발에서는 내 정보 수정, 북마크한 강의/공고, 지원 내역, 완료된 스터디 등 다양한 기능을 구현하며 TanStack Query를 통한 서버 상태 관리와 Zustand를 활용한 클라이언트 상태 분리 패턴을 체득했습니다. 또한, TailwindCSS 기반 반응형 디자인을 적용하여 모바일부터 데스크톱까지 일관된 사용자 경험을 제공했습니다.<br/><br/>트러블 슈팅 과정에서는 useEffect 의존성 배열 관리 실수로 인한 인터벌 중복 생성 문제를 useCountdown 커스텀 훅으로 해결하고, 한글 입력 시 IME 이슈를 e.nativeEvent.isComposing으로 처리하며 문제 해결 능력을 키웠습니다.코드 스플리팅 및 번들 최적화를 통해 Lighthouse 성능 점수를 개선하고, rollup-plugin-visualizer로 번들 구조를 시각화하며 성능 최적화 경험을 쌓았습니다.<br/><br/>react-error-boundary와 QueryErrorResetBoundary를 통합한 Error Boundary 시스템을 도입하여 컴포넌트 레벨에서 에러를 격리하고, 사용자에게 명확한 에러 메시지와 재시도 기능을 제공하며 안정적인 UX를 구현했습니다. 팀원들의 PR 리뷰를 통해 코드 품질을 유지하고 함께 성장하는 문화를 만들며 협업과 리더십 역량을 함께 키웠습니다.<br/><br/>이 프로젝트는 단순한 기능 구현을 넘어 프로젝트 설계, 성능 최적화, 에러 처리, 팀 협업까지 프론트엔드 개발의 전 과정을 경험한 종합적인 학습 경험이었으며, 실무에 바로 적용 가능한 기술 역량을 갖춘 계기가 되었습니다."
+      }
     }
   ]
 }
