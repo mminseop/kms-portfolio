@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Play } from "lucide-react";
 import type { ProjectData } from "../../types";
 
 interface ProjectItemProps {
@@ -15,7 +15,18 @@ function ProjectItem({ project, isVisible }: ProjectItemProps) {
     window.open(url, "_blank", "noopener, noreferrer");
   };
 
+  // 파일 확장자로 미디어 타입 판별
+  const getMediaType = (url: string): "video" | "image" => {
+    const videoExtensions = [".mp4", ".webm", ".ogg", ".mov"];
+    return videoExtensions.some((ext) => url.toLowerCase().endsWith(ext))
+      ? "video"
+      : "image";
+  };
+
   if (!isVisible) return;
+
+  const currentMedia = project.images[activeImageIndex];
+  const currentMediaType = getMediaType(currentMedia);
 
   return (
     <motion.div
@@ -28,36 +39,73 @@ function ProjectItem({ project, isVisible }: ProjectItemProps) {
       <div className="w-full lg:w-[380px] flex flex-col gap-6">
         {/* 이미지 슬라이더 */}
         <div className="w-full flex flex-col gap-3">
-          {/* 메인 이미지 */}
+          {/* 메인 미디어 - 조건부 */}
           <div className="w-full border border-white/30 shadow-[0_0_20px_rgba(0,0,0,0.3)] aspect-video flex justify-center items-center overflow-hidden rounded-md bg-gray-900">
-            <img
-              src={project.images[activeImageIndex]}
-              className="w-full h-full object-contain transition-transform duration-500 ease-in-out"
-              alt="프로젝트 이미지"
-            />
+            {currentMediaType === "video" ? (
+              <video
+                key={currentMedia} // 소스 변경 시 리렌더링 강제
+                className="w-full h-full object-contain"
+                controls
+                autoPlay
+                muted
+                loop
+                playsInline
+              >
+                <source src={currentMedia} type="video/mp4" />
+                비디오를 지원하지 않습니다
+              </video>
+            ) : (
+              <img
+                src={currentMedia}
+                className="w-full h-full object-contain transition-transform duration-500 ease-in-out"
+                alt="프로젝트 이미지"
+              />
+            )}
           </div>
 
           {/* 썸네일 리스트 */}
           <div className="w-full overflow-x-auto scrollbar-thin scrollbar-thumb-white/50 scrollbar-track-white/10">
             <div className="flex gap-2 pb-2">
-              {project.images.map((image, idx) => (
-                <button
-                  key={idx}
-                  className={`shrink-0 w-20 h-14 cursor-pointer transition-all duration-200 rounded overflow-hidden bg-gray-900 border-2
-                    ${
-                      activeImageIndex === idx
-                        ? "border-primary-500"
-                        : "border-white/30 brightness-75 hover:border-white/60 hover:brightness-90"
-                    }`}
-                  onClick={() => setActiveImageIndex(idx)}
-                >
-                  <img
-                    src={image}
-                    className="w-full h-full object-cover"
-                    alt={`프로젝트 썸네일 ${idx + 1}`}
-                  />
-                </button>
-              ))}
+              {project.images.map((media, idx) => {
+                const mediaType = getMediaType(media);
+
+                return (
+                  <button
+                    key={idx}
+                    className={`shrink-0 w-20 h-14 cursor-pointer transition-all duration-200 rounded overflow-hidden bg-gray-900 border-2 relative
+                      ${
+                        activeImageIndex === idx
+                          ? "border-primary-500"
+                          : "border-white/30 brightness-75 hover:border-white/60 hover:brightness-90"
+                      }`}
+                    onClick={() => setActiveImageIndex(idx)}
+                  >
+                    {mediaType === "video" ? (
+                      <>
+                        <video
+                          className="w-full h-full object-cover pointer-events-none"
+                          muted
+                        >
+                          <source src={media} type="video/mp4" />
+                        </video>
+                        {/* 비디오 아이콘 오버레이 */}
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                          <Play
+                            className="w-6 h-6 text-white"
+                            fill="currentColor"
+                          />
+                        </div>
+                      </>
+                    ) : (
+                      <img
+                        src={media}
+                        className="w-full h-full object-cover"
+                        alt={`프로젝트 썸네일 ${idx + 1}`}
+                      />
+                    )}
+                  </button>
+                );
+              })}
             </div>
           </div>
         </div>
