@@ -33,7 +33,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 1,
       "images": [
         "/images/projects/tasteMap/1-login.png",
         "/images/projects/tasteMap/2-main.png",
@@ -68,7 +68,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 2,
       "images": [
         "/images/projects/portfolio/1-image.png",
         "/images/projects/portfolio/2-image.png",
@@ -84,7 +84,7 @@
         "projectGithub": "https://github.com/mminseop/kms-portfolio"
       },
       "projectDetail": {
-        "projectExplain": "React와 TypeScript 기반으로 제작한 개인 포트폴리오 웹사이트입니다. Framer Motion을 활용한 부드러운 애니메이션과 인터랙션, Tailwind CSS 기반의 완전 반응형 디자인, 그리고 동적 데이터 구조를 통해 유지보수가 용이한 현대적인 포트폴리오를 구현했습니다. Skillicons API를 통합하여 기술 스택을 시각적으로 표현하고, 스크롤 기반 섹션 하이라이팅을 통해 직관적인 네비게이션 경험을 제공합니다.",
+        "projectExplain": "React와 TypeScript 기반으로 제작한 개인 포트폴리오 웹사이트입니다. Framer Motion을 활용한 부드러운 애니메이션, Tailwind CSS 기반 반응형 디자인, 그리고 JSON 데이터 구조를 통해 유지보수가 쉬운 포트폴리오를 구현했습니다.",
         "projectStacks": [
           "https://skillicons.dev/icons?i=react",
           "https://skillicons.dev/icons?i=typescript",
@@ -93,11 +93,11 @@
           "/images/icons/framer-motion.svg",
           "https://skillicons.dev/icons?i=vercel"
         ],
-        "projectReview": "단순한 정적 페이지가 아닌, 재사용 가능한 컴포넌트 구조와 동적 데이터 관리 시스템을 갖춘 확장 가능한 포트폴리오를 설계하고 구현했습니다. 초기에는 CSS 애니메이션을 사용했으나, Framer Motion으로 마이그레이션하여 더 정교한 애니메이션 제어와 선언적인 코드 구조를 확보했습니다. 특히 `variants` 패턴을 활용한 컨테이너/아이템 순차 애니메이션, `whileInView`를 통한 스크롤 기반 애니메이션 트리거, 그리고 `motion` 컴포넌트의 제스처 핸들링을 통해 인터랙티브한 사용자 경험을 구현했습니다.<br/><br/>기술 스택 섹션에서는 Skillicons API를 통합하여 일관된 아이콘 스타일을 유지하면서도, 호버 시 상세 설명이 나타나는 툴팁 시스템을 구현했습니다. 이 과정에서 `absolute` vs `fixed` 포지셔닝, `z-index` 레이어 관리, 그리고 `pointer-events` 속성을 활용한 UX 최적화 등 CSS 레이아웃에 대한 깊은 이해를 쌓았습니다.<br/><br/>네비게이션 헤더는 스크롤 위치에 따라 현재 섹션을 자동으로 하이라이팅하는 기능을 구현했습니다. 초기에는 `getBoundingClientRect()`를 사용한 스크롤 이벤트 기반 접근 방식을 시도했으나, 섹션 간 전환 시 정확도 문제가 발생했습니다. 이를 해결하기 위해 스크롤 감지 로직을 개선하고, `viewport` 높이 대비 섹션 위치 비율을 계산하여 더 정확한 활성 섹션 판단 로직을 구현했습니다.<br/><br/>TypeScript를 활용하여 프로젝트 데이터, 기술 스택, 네비게이션 등 모든 데이터 구조에 명확한 타입을 정의했습니다. 이를 통해 컴포넌트 간 데이터 흐름을 명확히 하고, 개발 중 타입 에러를 사전에 방지하며 IDE의 자동완성 기능을 최대한 활용할 수 있었습니다.<br/><br/>프로젝트 구조는 섹션별 컴포넌트 분리, 애니메이션 variants 중앙 관리, 타입 정의 분리 등 확장 가능하고 유지보수하기 쉬운 아키텍처로 설계했습니다. JSON 기반 데이터 구조를 통해 포트폴리오 내용을 쉽게 업데이트하고, 다른 개발자와 팀원들도 데이터 파일만 교체하면 자신만의 포트폴리오를 즉시 생성·활용할 수 있도록 했습니다.<br/><br/>이 프로젝트는 단순히 '나를 소개하는 페이지'를 넘어, React 생태계의 최신 기술 스택과 모범 사례를 종합적으로 적용한 실무 수준의 웹 애플리케이션입니다. 애니메이션 구현, 반응형 디자인, 타입 시스템 활용, 컴포넌트 아키텍처 설계 등 프론트엔드 개발의 핵심 역량을 모두 담아낸 의미 있는 프로젝트였으며, 실제로 팀원들도 별도 개발 없이 JSON 데이터만 교체해 바로 자신만의 포트폴리오를 완성할 수 있었습니다."
+        "projectReview": "재사용 가능한 컴포넌트 구조와 JSON 기반 데이터 관리로 확장 가능한 포트폴리오를 만들었습니다. 처음에는 CSS 애니메이션으로 시작했지만, Framer Motion으로 전환하며 더 정교한 애니메이션 제어와 깔끔한 코드 구조를 갖출 수 있었습니다.<br/><br/>Framer Motion의 variants 패턴으로 순차 애니메이션을 구현했고, whileInView를 활용해 스크롤할 때마다 자연스럽게 요소가 나타나도록 했습니다. 기술 스택 섹션에서는 Skillicons API를 사용해 일관된 아이콘을 보여주고, 호버 시 툴팁으로 상세 정보를 제공했습니다.<br/><br/>네비게이션 헤더는 스크롤 위치에 따라 현재 섹션을 자동으로 하이라이트하도록 구현했습니다. 처음에는 getBoundingClientRect()로 접근했지만 섹션 전환 시 정확도가 떨어져, viewport 높이 대비 섹션 위치를 계산하는 방식으로 개선했습니다.<br/><br/>TypeScript를 적용해 프로젝트 데이터, 기술 스택 등 모든 데이터 구조에 타입을 정의하고, 컴포넌트 간 데이터 흐름을 명확하게 관리했습니다. 특히 JSON 기반 데이터 구조로 설계해, 프로젝트 팀원들이 별도 개발 지식 없이도 JSON 파일의 이름, 설명, 기술 스택, 이미지 경로만 수정하면 즉시 자신만의 포트폴리오를 만들 수 있도록 했습니다. 실제로 여러 팀원들이 이 템플릿을 활용해 각자의 포트폴리오를 빠르게 완성할 수 있었고, 이를 통해 재사용 가능한 설계의 가치를 체감할 수 있었습니다.<br/><br/>이 프로젝트를 통해 React 애니메이션 구현, 반응형 디자인, TypeScript 타입 시스템, 그리고 확장 가능하고 재사용 가능한 컴포넌트 설계 경험을 쌓을 수 있었습니다."
       }
     },
     {
-      "id": 4,
+      "id": 3,
       "images": [
         "/videos/studyHub/studyhub.mp4",
         "/images/projects/studyHub/1-main.png",
