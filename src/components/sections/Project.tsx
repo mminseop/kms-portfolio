@@ -14,12 +14,12 @@ function Projects({ data }: ProjectsProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalProjects = data.projects.length;
 
-    useEffect(() => {
+  useEffect(() => {
     const sectionElement = document.getElementById("projects");
     if (sectionElement)
-      sectionElement.scrollIntoView({ behavior: "smooth", block: "start" }); // 부드럽게 스크롤 이동
+      sectionElement.scrollIntoView({ behavior: "auto", block: "start" });
   }, [currentIndex]);
-  
+
   const handlePrevious = () => {
     setCurrentIndex((prev) => (prev === 0 ? totalProjects - 1 : prev - 1));
   };
