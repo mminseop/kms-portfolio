@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { ProjectsData } from "../../types";
@@ -14,6 +14,12 @@ function Projects({ data }: ProjectsProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalProjects = data.projects.length;
 
+    useEffect(() => {
+    const sectionElement = document.getElementById("projects");
+    if (sectionElement)
+      sectionElement.scrollIntoView({ behavior: "smooth", block: "start" }); // 부드럽게 스크롤 이동
+  }, [currentIndex]);
+  
   const handlePrevious = () => {
     setCurrentIndex((prev) => (prev === 0 ? totalProjects - 1 : prev - 1));
   };
