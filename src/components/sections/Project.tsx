@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { ProjectsData } from "../../types";
@@ -14,7 +14,14 @@ function Projects({ data }: ProjectsProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalProjects = data.projects.length;
 
+  const initMount = useRef(true); // 첫마운트 여부
+
   useEffect(() => {
+    if (initMount.current) {
+      initMount.current = false; // 첫 렌더링 후 false로 셋팅
+      return; // 첫 렌더링시 스크롤 이동x
+    }
+
     const sectionElement = document.getElementById("projects");
     if (sectionElement)
       sectionElement.scrollIntoView({ behavior: "auto", block: "start" });
