@@ -197,6 +197,34 @@
         ],
         "projectReview": "프로젝트를 처음부터 끝까지 이끌며 기술 스택 선정부터 배포까지 전 과정을 경험했습니다. Vite, Axios, TanStack Query, Zustand 등 초기 환경을 직접 세팅하고, MSW로 API 테스트 환경을 만들어 팀 전체가 빠르게 개발할 수 있도록 했습니다.<br/><br/>마이페이지에서는 내 정보 수정, 북마크한 강의/공고, 지원 내역, 완료된 스터디의 다양한 섹션을 만들면서 TanStack Query로 서버 상태를, Zustand로 클라이언트 상태를 나눠 관리하는 경험을 쌓았습니다. 반응형 디자인은 TailwindCSS와 Presentational Pattern을 활용해 모바일과 PC 화면을 조건부 렌더링으로 분리했습니다.<br/><br/>개발하면서 여러 문제도 만났는데, 인증번호 타이머에서 useEffect 의존성 배열 때문에 인터벌이 계속 재생성되는 문제는 useCountdown 커스텀 훅으로 해결했고 한글 입력 시 엔터가 중복으로 인식되는 IME 이슈는 e.nativeEvent.isComposing으로 처리했습니다. 코드 스플리팅과 번들 최적화로 Lighthouse 점수도 올렸고, rollup-plugin-visualizer로 번들 구조를 직접 보며 어디를 개선할지 고민했습니다.<br/><br/>react-error-boundary를 도입해서 API 에러가 나도 전체 페이지가 멈추지 않고 해당 영역만 에러 메시지를 보여주고 재시도할 수 있게 만들었습니다. 팀원들의 PR을 리뷰하며 코드 스타일을 맞추고 함께 고민하고 개선하는 문화를 만들려고 노력했습니다.<br/><br/>이 프로젝트는 단순히 기능을 만드는 걸 넘어 프로젝트 설계부터 성능 최적화, 에러 처리, 팀 협업까지 프론트엔드 개발 전반을 경험한 소중한 시간이었습니다."
       }
+    },
+    {
+      "id": 5,
+        "images": [
+        "/images/projects/travelBucket/1-main.png",
+        "/images/projects/travelBucket/2-login.png",
+        "/images/projects/travelBucket/3-esim.png",
+        "/images/projects/travelBucket/4-date.png"
+      ],
+      "projectInfo": {
+        "projectType": "팀 프로젝트(2인)",
+        "projectName": "TravelBucket",
+        "projectDate": "2025.01 ~ 2025.05",
+        "projectSite": "https://develop.efspace.kr/",
+        "projectGithub": "https://github.com/mminseop/travelBucket"
+      },
+      "projectDetail": {
+        "projectExplain": "트래블버킷은 HTML, CSS, JavaScript(JQuery), PHP(7.3), 그리고 AJAX를 활용해 비동기 호출을 구현한 프로젝트입니다. MariaDB를 데이터베이스로 사용했으며, 웹 개발의 기본기를 다지는 좋은 경험이었습니다. 이 프로젝트를 통해 프론트엔드와 백엔드의 기초를 배우고 데이터베이스와의 연동 경험도 쌓았습니다.",
+        "projectStacks": [
+          "https://skillicons.dev/icons?i=html",
+          "https://skillicons.dev/icons?i=css",
+          "https://skillicons.dev/icons?i=javascript",
+          "https://skillicons.dev/icons?i=jquery",
+          "https://skillicons.dev/icons?i=php",
+          "/images/icons/mariadb-icon.svg"
+        ],
+        "projectReview": "트래블버킷은 프로젝트로 웹 개발의 기본기와 원리를 체득하는 중요한 계기가 되었고 부트캠프 이전에 웹 풀스택 개발 역량을 다지는 데 큰 도움이 되었습니다. 또한 실제 서비스에서 필요한 비동기 데이터 처리와 데이터베이스 연동에 대한 자신감을 얻게 되었습니다."
+      }
     }
   ]
 }
