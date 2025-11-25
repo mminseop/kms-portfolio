@@ -214,7 +214,7 @@
         "projectGithub": "https://github.com/mminseop/travelBucket"
       },
       "projectDetail": {
-        "projectExplain": "트래블버킷은 HTML, CSS, JavaScript(JQuery), PHP(7.3), 그리고 AJAX를 활용해 비동기 호출을 구현한 프로젝트입니다. MariaDB를 데이터베이스로 사용했으며, 웹 개발의 기본기를 다지는 좋은 경험이었습니다. 이 프로젝트를 통해 프론트엔드와 백엔드의 기초를 배우고 데이터베이스와의 연동 경험도 쌓았습니다.",
+        "projectExplain": "여행, 숙박, 항공권 예약 서비스를 제공하는 웹사이트로서, HTML, CSS, JavaScript(JQuery), PHP 7.3, 그리고 MariaDB를 사용해 개발되었습니다. 특히 AJAX를 이용한 비동기 통신 구현을 통해 사용자 경험을 향상시키는 데 중점을 두었습니다. 이 프로젝트는 부트캠프 이전에 웹 개발의 기본기와 원리를 익히고, 프론트엔드와 백엔드, 그리고 데이터베이스 연동 역량을 쌓는 데 큰 도움이 되었습니다.",
         "projectStacks": [
           "https://skillicons.dev/icons?i=html",
           "https://skillicons.dev/icons?i=css",
