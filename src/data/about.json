@@ -2,11 +2,11 @@
   "sectionTitle": "ABOUT ME",
   "personalInfo": {
     "name": "김민섭",
-    "birthDate": "94. 04. 29",
-    "location": "서울특별시 노원구",
+    "birthDate": "94.04",
+    "location": "서울특별시",
     "phone": "010-****-****",
-    "email": "alstjq903@gmail.com",
-    "education": "오즈코딩스쿨 FE 12기"
+    "email": "al*****@gmail.com",
+    "education": "FE 12기"
   },
   "labels": {
     "name": "이름",
