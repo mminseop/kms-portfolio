@@ -13,3 +13,17 @@
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+
+<script>
+  (function() {
+    fetch('https://api.minseop.dev/api/analytics/track', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        page_url: window.location.pathname + window.location.search,
+      }),
+    }).catch(err => console.log('Analytics error:', err));
+  })();
+</script>
